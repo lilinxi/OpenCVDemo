@@ -23,6 +23,9 @@
         6. 裁剪和重新排列，将原点移到中心：Rect()，copyTo()
             - 奇数裁剪为偶数（& -2(11111……10)：7->6）
         7. 标准化：normalize()
+    7. XMLAndYAML：序列化：XML 和 YAML
+        1. FileStorage，FileNode
+        2. 读写：OpenCV 数据结构，向量/数组和 Map，自定义数据结构
 3. imgproc
     1. BasicDrawing：基础绘图：Point()，Scalar()，line()，rectangle()，ellipse()，circle()，fillPoly()
     2. RandomAndText：随机和文本
