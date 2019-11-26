@@ -16,6 +16,9 @@
         3. saturate_cast：转化为uchar（0~255）
 3. imgproc
     1. 基础绘图：Point，Scalar，line，rectangle，ellipse，circle，fillPoly
+    2. 随机和文本
+        - 随机数生成器：RNG.uniform
+        - 绘制文本：putText，getTextSize
 
 ---
 

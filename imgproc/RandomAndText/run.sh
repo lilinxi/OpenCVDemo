@@ -1,2 +1,2 @@
 cd $(dirname $0) || exit
-./build/BasicDrawing
+./build/RandomAndText

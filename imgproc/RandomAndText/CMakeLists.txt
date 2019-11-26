@@ -1,7 +1,7 @@
 #https://github.com/opencv/opencv/blob/master/samples/cpp/example_cmake/CMakeLists.txt
 
 cmake_minimum_required(VERSION 3.14)
-project(BasicDrawing)
+project(RandomAndText)
 
 # Enable C++11
 set(CMAKE_CXX_STANDARD 11)
@@ -15,5 +15,5 @@ message(STATUS "    version: ${OpenCV_VERSION}")
 message(STATUS "    libraries: ${OpenCV_LIBS}")
 message(STATUS "    include path: ${OpenCV_INCLUDE_DIRS}")
 
-add_executable(BasicDrawing BasicDrawing.cpp)
-target_link_libraries(BasicDrawing LINK_PRIVATE ${OpenCV_LIBS})
+add_executable(RandomAndText RandomAndText.cpp)
+target_link_libraries(RandomAndText LINK_PRIVATE ${OpenCV_LIBS})
