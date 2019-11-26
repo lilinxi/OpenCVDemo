@@ -3,4 +3,4 @@ project(OpenCVDemo)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(OpenCVDemo main.cpp core/UsingMask/UsingMask.cpp core/ImageOperation/ImageOperation.cpp)
+#add_executable(OpenCVDemo main.cpp)
