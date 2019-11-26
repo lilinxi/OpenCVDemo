@@ -5,6 +5,7 @@
 2. core
     1. UsingMat
     2. ScanningImages：[使用查找表（LUT）缩减色彩空间（color space reduction）](https://blog.csdn.net/wonder_coole/article/details/80541725)
+        - 为了减少色彩总量，降低软硬件消耗
         - 色彩空间，色温，伽马
 
 ---
