@@ -7,18 +7,27 @@
     2. ScanningImages：[使用查找表（LUT）缩减色彩空间（color space reduction）](https://blog.csdn.net/wonder_coole/article/details/80541725)
         - 为了减少色彩总量，降低软硬件消耗
         - 色彩空间，色温，伽马
-    3. UsingMask：根据掩码矩阵（也称为内核）重新计算图像中的每个像素值（filter2D）
+    3. UsingMask：根据掩码矩阵（也称为内核）重新计算图像中的每个像素值（filter2D()）
     4. ImageOperation：输入输出，访问图像像素，内存管理和引用计数，截取和灰度、色彩空间转换，可视化
-    5. AddingImages：图像混合（addWeighted），samples::findFile
+    5. AddingImages：图像混合（addWeighted()），samples::findFile()
     5. LinearTransforms：线性变换
-        1. 亮度（α)和对比度调整（β），g(x)=αf(x)+β，Using convertTo
-        2. 伽马矫正，Using LUT
+        1. 亮度（α)和对比度调整（β），g(x)=αf(x)+β，Using convertTo()
+        2. 伽马矫正，Using LUT()
         3. saturate_cast：转化为uchar（0~255）
+    6. 离散傅里叶变换
+        1. 将图像展开至最佳尺寸：getOptimalDFTSize()，copyMakeBorder()
+        2. 转换为 float 并增加虚数通道：Mat_<float>()，merge()
+        3. 离散傅里叶变换：dft()
+        4. 转换复数为大小：split()，magnitude()
+        5. 转换到对数刻度：log()
+        6. 裁剪和重新排列，将原点移到中心：Rect()，copyTo()
+            - 奇数裁剪为偶数（& -2(11111……10)：7->6）
+        7. 标准化：normalize()
 3. imgproc
-    1. 基础绘图：Point，Scalar，line，rectangle，ellipse，circle，fillPoly
+    1. 基础绘图：Point()，Scalar()，line()，rectangle()，ellipse()，circle()，fillPoly()
     2. 随机和文本
-        - 随机数生成器：RNG.uniform
-        - 绘制文本：putText，getTextSize
+        - 随机数生成器：RNG.uniform()
+        - 绘制文本：putText()，getTextSize()
 
 ---
 
