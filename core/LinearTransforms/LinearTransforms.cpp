@@ -1,7 +1,7 @@
 /**
  * 线性变换：
  * 1. 亮度（α)和对比度调整（β），g(x)=αf(x)+β，Using convertTo
- * 2. 伽马矫正，Using LUT
+ * 2. 伽马矫正，O = (I/255)^γ * 255，Using LUT
  * 3. saturate_cast：转化为uchar（0~255）
  */
 
