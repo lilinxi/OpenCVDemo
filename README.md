@@ -39,7 +39,9 @@
         3. 中值滤波：medianBlur()
         4. 双边滤波（保护边缘）：bilateralFilter()
             - 其他滤波会模糊图片的边缘细节，对于高频细节的保护效果并不明显；双边滤波可以在去噪的同时，保护图像的边缘特性
-    4. ErodingAndDilating
+    4. ErodingAndDilating：形态操作将结构元素应用于输入图像并生成输出图像。最基本的形态作用是：侵蚀（最小值滤波）和扩张（最大值滤波）
+        - 作用：1. 消除噪音；2. 隔离单个元素并连接图像中的不同元素；3. 查找图像中的强度凸点或孔
+        - createTrackbar(), getStructuringElement(), erode(), dilate()
 
 ---
 
