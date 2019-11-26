@@ -102,7 +102,7 @@ int main(int argc, char *argv[]) {
     }
     {
         //! [Reference counting 2]
-        Mat img = imread("image.jpg");
+        Mat img = imread(filename);
         Mat img1 = img.clone();
         //! [Reference counting 2]
         CV_UNUSED(img1);
