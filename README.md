@@ -32,6 +32,12 @@
     2. RandomAndText：随机和文本
         - 随机数生成器：RNG.uniform()
         - 绘制文本：putText()，getTextSize()
+    3. 平滑图像
+        1. 归一化滤波：blur()
+        2. 高斯滤波：GaussianBlur()
+        3. 中值滤波：medianBlur()
+        4. 双边滤波（保护边缘）：bilateralFilter()
+            - 其他滤波会模糊图片的边缘细节，对于高频细节的保护效果并不明显；双边滤波可以在去噪的同时，保护图像的边缘特性
 
 ---
 
