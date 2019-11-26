@@ -32,7 +32,7 @@
     2. RandomAndText：随机和文本
         - 随机数生成器：RNG.uniform()
         - 绘制文本：putText()，getTextSize()
-    3. 平滑图像
+    3. Smoothing：平滑图像
         1. 归一化滤波：blur()
         2. 高斯滤波：GaussianBlur()
         3. 中值滤波：medianBlur()
