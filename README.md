@@ -26,6 +26,7 @@
     7. XMLAndYAML：序列化：XML 和 YAML
         1. FileStorage，FileNode
         2. 读写：OpenCV 数据结构，向量/数组和 Map，自定义数据结构
+    8. 并行：ParallelFor 框架（parallel_for_(C++11), ParallelLoopBody）：绘制一个 Mandelbrot 集
 3. imgproc
     1. BasicDrawing：基础绘图：Point()，Scalar()，line()，rectangle()，ellipse()，circle()，fillPoly()
     2. RandomAndText：随机和文本
