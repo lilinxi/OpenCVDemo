@@ -10,6 +10,10 @@
     3. UsingMask：根据掩码矩阵（也称为内核）重新计算图像中的每个像素值（filter2D）
     4. ImageOperation：输入输出，访问图像像素，内存管理和引用计数，截取和灰度、色彩空间转换，可视化
     5. AddingImages：图像混合（addWeighted），samples::findFile
+    5. LinearTransforms：线性变换
+        1. 亮度（α)和对比度调整（β），g(x)=αf(x)+β，Using convertTo
+        2. 伽马矫正，Using LUT
+        3. saturate_cast：转化为uchar（0~255）
 
 ---
 
