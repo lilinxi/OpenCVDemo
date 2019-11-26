@@ -8,7 +8,7 @@
 using namespace std;
 using namespace cv;
 
-int main(int argc, char **argv) {
+int main(int argc, char *argv[]) {
     if (argc != 2) {
         cout << "usage: DisplayImage.out <Image_Path>" << endl;
         return -1;
