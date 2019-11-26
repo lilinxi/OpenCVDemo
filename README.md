@@ -14,7 +14,7 @@
         1. 亮度（α)和对比度调整（β），g(x)=αf(x)+β，Using convertTo()
         2. 伽马矫正，Using LUT()
         3. saturate_cast：转化为uchar（0~255）
-    6. 离散傅里叶变换
+    6. DiscreteFourierTransform：离散傅里叶变换
         1. 将图像展开至最佳尺寸：getOptimalDFTSize()，copyMakeBorder()
         2. 转换为 float 并增加虚数通道：Mat_<float>()，merge()
         3. 离散傅里叶变换：dft()
@@ -24,8 +24,8 @@
             - 奇数裁剪为偶数（& -2(11111……10)：7->6）
         7. 标准化：normalize()
 3. imgproc
-    1. 基础绘图：Point()，Scalar()，line()，rectangle()，ellipse()，circle()，fillPoly()
-    2. 随机和文本
+    1. BasicDrawing：基础绘图：Point()，Scalar()，line()，rectangle()，ellipse()，circle()，fillPoly()
+    2. RandomAndText：随机和文本
         - 随机数生成器：RNG.uniform()
         - 绘制文本：putText()，getTextSize()
 
