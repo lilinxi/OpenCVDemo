@@ -55,6 +55,9 @@
         5. Black Hat：源减 Closing
             - 作用：黑帽运算后的效果图突出了比原图轮廓周围的区域更暗的区域，黑帽运算用来分离比临近点暗一点的斑块，效果图有着非常完美的轮廓
      6. HitOrMiss：匹配查找和不匹配查找
+     7. HorizontalAndVertical：使用形态学操作来提取水平和垂直线
+        - 二值：adaptiveThreshold()
+        - 反相：bitwise_not()
 
 ---
 
