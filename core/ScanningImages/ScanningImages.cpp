@@ -86,7 +86,6 @@ int main(int argc, char *argv[]) {
     t /= times;
     cout << "Time of reducing with the iterator (averaged for "
          << times << " runs): " << t << " milliseconds." << endl;
-    namedWindow("Display Image", WINDOW_AUTOSIZE);
     imshow("Display Image(2)", J);
     waitKey(1000);
 
@@ -99,7 +98,6 @@ int main(int argc, char *argv[]) {
     t /= times;
     cout << "Time of reducing with the on-the-fly address generation - at function (averaged for "
          << times << " runs): " << t << " milliseconds." << endl;
-    namedWindow("Display Image", WINDOW_AUTOSIZE);
     imshow("Display Image(3)", J);
     waitKey(1000);
 
@@ -119,7 +117,6 @@ int main(int argc, char *argv[]) {
     t /= times;
     cout << "Time of reducing with the LUT function (averaged for "
          << times << " runs): " << t << " milliseconds." << endl;
-    namedWindow("Display Image", WINDOW_AUTOSIZE);
     imshow("Display Image(4)", J);
     waitKey(1000);
 
@@ -132,7 +129,6 @@ int main(int argc, char *argv[]) {
     t /= times;
     cout << "Time of reducing with the LUT function (averaged for "
          << times << " runs): " << t << " milliseconds." << endl;
-    namedWindow("Display Image", WINDOW_AUTOSIZE);
     imshow("Display Image(5)", J);
     waitKey(1000);
 
