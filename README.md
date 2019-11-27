@@ -112,6 +112,10 @@
     1. 转换为 HSV 格式
     2. mixChannels()：提取 H 或 H-S
     3. calcBackProject()：反向投影
+24. MatchingTemplate：模板匹配
+    1. matchTemplate(img_tmpl, tmpl, (mask))：搜索匹配
+    2. minMaxLoc()：求数组最大，最小值的位置（根据算法可能是最大匹配或最小匹配，但是不一定是极值匹配）
+25. FindingContours：查找轮廓（轮廓是边缘的一部分）：findContours(), drawContours()
 
 ---
 
