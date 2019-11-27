@@ -120,10 +120,11 @@
 27. CreatingBounding：为轮廓创建边界框和圆：boundingRect(), minEnclosingCircle()
     - approxPolyDP()：把一个连续光滑曲线折线化
 28. CreatingBounding2：为轮廓创建边界框（旋转）和椭圆：minAreaRect(), fitEllipse()
-28. ImageMoments：图像特征：
+29. ImageMoments：图像特征：
     - moments()：计算图像中心矩（最高三阶）
     - contourArea()：计算轮廓面积
     - arcLength()：计算封闭轮廓的周长或曲线的长度
+30. PointPolygonTest：点多边形测试：pointPolygonTest()，判断点在轮廓上，内，外，或者到轮廓的最近距离
 
 ---
 
