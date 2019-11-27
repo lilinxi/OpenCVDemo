@@ -93,6 +93,7 @@
     - 标准 Hough 变换：HoughLines()
     - 概率 Hough 变换：HoughLinesP()，更有效
 17. HoughCircleTransform：霍夫圆变换：HoughCircles()
+18. Remapping：重新映射：remap(map_x, map_y)
 
 ---
 
