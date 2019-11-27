@@ -117,6 +117,8 @@
     2. minMaxLoc()：求数组最大，最小值的位置（根据算法可能是最大匹配或最小匹配，但是不一定是极值匹配）
 25. FindingContours：查找轮廓（轮廓是边缘的一部分）：findContours(), drawContours()
 26. ConvexHull：凸包：convexHull()
+27. CreatingBounding：为轮廓创建边界框和圆：boundingRect(), minEnclosingCircle()
+    - approxPolyDP()：把一个连续光滑曲线折线化
 
 ---
 
