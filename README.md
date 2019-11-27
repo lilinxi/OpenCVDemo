@@ -66,6 +66,7 @@
         4. 阈值为零
         5. 阈值为零，倒数
     9. ThresholdingInRange：阈值操作(inRange())，setTrackbarPos()
+    10. LinearFilters：线性滤波：filter2D()
 
 ---
 
