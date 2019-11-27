@@ -8,7 +8,7 @@
         - 为了减少色彩总量，降低软硬件消耗
         - 色彩空间，色温，伽马
     3. UsingMask：根据掩码矩阵（也称为内核）重新计算图像中的每个像素值（filter2D()）
-    4. ImageOperation：输入输出，访问图像像素，内存管理和引用计数，截取和灰度、色彩空间转换，可视化
+    4. ImageOperation：输入输出，访问图像像素(at<uchar>())，内存管理和引用计数(CV_UNUSED()，截取和灰度(cvtColor())、色彩空间转换(convertTo())，可视化
     5. AddingImages：图像混合（addWeighted()），samples::findFile()
     5. LinearTransforms：线性变换
         1. 亮度（α)和对比度调整（β），g(x)=αf(x)+β，Using convertTo()
@@ -59,6 +59,12 @@
         - 二值：adaptiveThreshold()
         - 反相：bitwise_not()
     8. ImagePyramids：图像金字塔：pyrDown and pyrUp
+    9. BasicThresholding：基本阈值操作：分离对应于我们想要分析的对象的图像的区域。该分离基于对象像素和背景像素之间的强度变化。
+        1. 阈值二进制
+        2. 阈值二进制，倒数
+        3. 截短
+        4. 阈值为零
+        5. 阈值为零，倒数
 
 ---
 
