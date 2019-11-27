@@ -89,7 +89,9 @@
         2. 求图像强度梯度，查找梯度方向（Sobel）
         3. 非最大抑制
         4. 双阈值检验
-16. 
+16. HoughLineTransform：霍夫直线变换：
+    - 标准 Hough 变换：HoughLines()
+    - 概率 Hough 变换：HoughLinesP()，更有效
 
 ---
 
