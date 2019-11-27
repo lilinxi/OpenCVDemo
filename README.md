@@ -125,6 +125,9 @@
     - contourArea()：计算轮廓面积
     - arcLength()：计算封闭轮廓的周长或曲线的长度
 30. PointPolygonTest：点多边形测试：pointPolygonTest()，判断点在轮廓上，内，外，或者到轮廓的最近距离
+31. DistanceImageSegmentation：图像距离分割：
+    - distanceTransform()：计算图像中每一个非零点距离离自己最近的零点的距离
+    - watershed()：分水岭算法，分离前景和背景
 
 ---
 
