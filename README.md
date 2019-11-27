@@ -119,6 +119,8 @@
 26. ConvexHull：凸包：convexHull()
 27. CreatingBounding：为轮廓创建边界框和圆：boundingRect(), minEnclosingCircle()
     - approxPolyDP()：把一个连续光滑曲线折线化
+28. CreatingBounding2：为轮廓创建边界框（旋转）和椭圆：minAreaRect(), fitEllipse()
+28. Image Moments
 
 ---
 
