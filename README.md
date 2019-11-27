@@ -120,7 +120,10 @@
 27. CreatingBounding：为轮廓创建边界框和圆：boundingRect(), minEnclosingCircle()
     - approxPolyDP()：把一个连续光滑曲线折线化
 28. CreatingBounding2：为轮廓创建边界框（旋转）和椭圆：minAreaRect(), fitEllipse()
-28. Image Moments
+28. ImageMoments：图像特征：
+    - moments()：计算图像中心矩（最高三阶）
+    - contourArea()：计算轮廓面积
+    - arcLength()：计算封闭轮廓的周长或曲线的长度
 
 ---
 
