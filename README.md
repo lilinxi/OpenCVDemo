@@ -92,6 +92,7 @@
 16. HoughLineTransform：霍夫直线变换：
     - 标准 Hough 变换：HoughLines()
     - 概率 Hough 变换：HoughLinesP()，更有效
+17. HoughCircleTransform：霍夫圆变换：HoughCircles()
 
 ---
 
