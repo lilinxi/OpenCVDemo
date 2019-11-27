@@ -129,6 +129,10 @@
     - distanceTransform()：计算图像中每一个非零点距离离自己最近的零点的距离
     - watershed()：分水岭算法，分离前景和背景
 
+## highgui
+
+1. AddingTrackbar：添加跟踪栏：createTrackbar(), CallbackFunc(int, void *)
+
 ---
 
 # References
