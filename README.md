@@ -99,7 +99,10 @@
     2. Translations (vector addition)：getAffineTransform()
     3. Scale operations (linear transformation)：getRotationMatrix2D()
 20. HistogramEqualization：直方图均衡化：equalizeHist()
-21. HistogramCalculation：
+21. HistogramCalculation：计算直方图
+    1. split()：将图像分割成对应的通道
+    2. calcHist()：来计算图像数组的直方图
+    3. normalize()：对数组进行归一化
 
 ---
 
