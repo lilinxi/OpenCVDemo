@@ -103,6 +103,11 @@
     1. split()：将图像分割成对应的通道
     2. calcHist()：来计算图像数组的直方图
     3. normalize()：对数组进行归一化
+22. HistogramComparison：直方图比较：compareHist()
+    1. Correlation ( CV_COMP_CORREL )
+    2. Chi-Square ( CV_COMP_CHISQR )
+    3. Intersection ( method=CV_COMP_INTERSECT )
+    4. Intersection ( method=CV_COMP_INTERSECT )
 
 ---
 
