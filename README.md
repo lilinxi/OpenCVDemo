@@ -108,6 +108,10 @@
     2. Chi-Square ( CV_COMP_CHISQR )
     3. Intersection ( method=CV_COMP_INTERSECT )
     4. Intersection ( method=CV_COMP_INTERSECT )
+23. BackProjection：反向投影
+    1. 转换为 HSV 格式
+    2. mixChannels()：提取 H 或 H-S
+    3. calcBackProject()：反向投影
 
 ---
 
