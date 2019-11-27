@@ -1,5 +1,5 @@
 /**
- * Sobel 衍生物：Sobel(ksize, scale, delta), Scharr(ksize=3, scale, delta)
+ * Sobel 衍生物：Sobel(ksize, scale, delta), Scharr(ksize=3, scale, delta), convertScaleAbs()
  */
 
 #include <opencv2/imgproc.hpp>

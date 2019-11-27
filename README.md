@@ -73,7 +73,7 @@
 10. ThresholdingInRange：阈值操作(inRange())，setTrackbarPos()
 11. LinearFilters：线性滤波：filter2D()
 12. AddingBorders：增加边框：copyMakeBorder(), BORDER_CONSTANT, BORDER_REPLICATE
-13. SobelDerivatives：Sobel 衍生物：Sobel(ksize, scale, delta), Scharr(ksize=3, scale, delta)
+13. SobelDerivatives：Sobel 衍生物：Sobel(ksize, scale, delta), Scharr(ksize=3, scale, delta), convertScaleAbs()
 
 ---
 
