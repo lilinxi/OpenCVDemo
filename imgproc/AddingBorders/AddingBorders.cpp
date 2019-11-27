@@ -20,7 +20,7 @@ RNG rng(12345);
 /**
  * @function main
  */
-int main(int argc, char **argv) {
+int main(int argc, char *argv[]) {
     //![load]
     const char *imageName = argc >= 2 ? argv[1] : "lena.jpg";
 
