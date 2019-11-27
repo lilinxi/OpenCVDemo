@@ -6,6 +6,8 @@
     
 ## core
 
+- 核心功能模块
+
 1. UsingMat
 2. ScanningImages：[使用查找表（LUT）缩减色彩空间（color space reduction）](https://blog.csdn.net/wonder_coole/article/details/80541725)
     - 为了减少色彩总量，降低软硬件消耗
@@ -33,6 +35,8 @@
 9. 并行：ParallelFor 框架（parallel_for_(C++11), ParallelLoopBody）：绘制一个 Mandelbrot 集
     
 ## imgproc
+
+- 图像处理模块，其主要包括图像滤波、几何变换、直方图、特征检测与目标检测
 
 1. BasicDrawing：基础绘图：Point()，Scalar()，line()，rectangle()，ellipse()，circle()，fillPoly()
 2. RandomAndText：随机和文本
@@ -131,7 +135,53 @@
 
 ## highgui
 
+- 高层GUI图形用户界面
+
 1. AddingTrackbar：添加跟踪栏：createTrackbar(), CallbackFunc(int, void *)
+
+## imgcodecs
+
+- 用GDAL读取地理空间栅格文件
+
+## videoio
+
+- 视频输入输出
+
+## calib3d
+
+- 相机校准和 3D 重建
+
+## feature2d
+
+- 2D 特征
+
+## objdetect
+
+- 对象检测
+
+## dnn
+
+- 深度神经网络
+
+## ml
+
+- 机器学习
+
+## gapi
+
+- 加速常规的图像处理
+
+## photo
+
+- 计算摄影
+
+## stitching
+
+- 图像拼接
+
+## cuda
+
+- GPU 加速计算机视觉
 
 ---
 
