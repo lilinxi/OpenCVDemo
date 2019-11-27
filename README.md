@@ -98,6 +98,8 @@
     1. Rotations (linear transformation)：getRotationMatrix2D()
     2. Translations (vector addition)：getAffineTransform()
     3. Scale operations (linear transformation)：getRotationMatrix2D()
+20. HistogramEqualization：直方图均衡化：equalizeHist()
+21. HistogramCalculation：
 
 ---
 
