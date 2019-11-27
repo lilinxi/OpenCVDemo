@@ -43,7 +43,7 @@
         - 作用：1. 消除噪音；2. 隔离单个元素并连接图像中的不同元素；3. 查找图像中的强度凸点或孔
         - createTrackbar(), getStructuringElement(), erode(), dilate()
         - Element（核形状）：矩形框，十字架，椭圆
-     5. AdvanceMorphology：更多形态转化
+    5. AdvanceMorphology：更多形态转化
         1. Opening：侵蚀后扩张
             - 作用：去除小物体（白色）
         2. Closing：扩张后侵蚀
@@ -54,10 +54,11 @@
             - 作用：顶帽运算往往用来分离比邻近点亮一些的斑块，在一幅图像具有大幅的背景，而微小物品比较有规律的情况下，可以使用顶帽运算进行背景提取
         5. Black Hat：源减 Closing
             - 作用：黑帽运算后的效果图突出了比原图轮廓周围的区域更暗的区域，黑帽运算用来分离比临近点暗一点的斑块，效果图有着非常完美的轮廓
-     6. HitOrMiss：匹配查找和不匹配查找
-     7. HorizontalAndVertical：使用形态学操作来提取水平和垂直线
+    6. HitOrMiss：匹配查找和不匹配查找
+    7. HorizontalAndVertical：使用形态学操作来提取水平和垂直线
         - 二值：adaptiveThreshold()
         - 反相：bitwise_not()
+    8. ImagePyramids：图像金字塔：pyrDown and pyrUp
 
 ---
 
