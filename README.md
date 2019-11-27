@@ -74,6 +74,11 @@
 11. LinearFilters：线性滤波：filter2D()
 12. AddingBorders：增加边框：copyMakeBorder(), BORDER_CONSTANT, BORDER_REPLICATE
 13. SobelDerivatives：Sobel 衍生物：Sobel(ksize, scale, delta), Scharr(ksize=3, scale, delta), convertScaleAbs()
+14. LaplaceOperator：拉普拉斯算子
+    1. GaussianBlur()
+    2. cvtColor()
+    3. Laplacian()
+    4. convertScaleAbs()
 
 ---
 
