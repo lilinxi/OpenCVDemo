@@ -94,6 +94,10 @@
     - 概率 Hough 变换：HoughLinesP()，更有效
 17. HoughCircleTransform：霍夫圆变换：HoughCircles()
 18. Remapping：重新映射：remap(map_x, map_y)
+19. AffineTransformations：仿射变换：warpAffine()
+    1. Rotations (linear transformation)：getRotationMatrix2D()
+    2. Translations (vector addition)：getAffineTransform()
+    3. Scale operations (linear transformation)：getRotationMatrix2D()
 
 ---
 
