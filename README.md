@@ -72,6 +72,7 @@
     5. 阈值为零，倒数
 10. ThresholdingInRange：阈值操作(inRange())，setTrackbarPos()
 11. LinearFilters：线性滤波：filter2D()
+12. AddingBorders：增加边框：copyMakeBorder(), BORDER_CONSTANT, BORDER_REPLICATE
 
 ---
 
