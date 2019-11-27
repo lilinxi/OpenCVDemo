@@ -59,12 +59,13 @@
         - 二值：adaptiveThreshold()
         - 反相：bitwise_not()
     8. ImagePyramids：图像金字塔：pyrDown and pyrUp
-    9. BasicThresholding：基本阈值操作：分离对应于我们想要分析的对象的图像的区域。该分离基于对象像素和背景像素之间的强度变化。
+    9. BasicThresholding：基本阈值操作(threshold())：分离对应于我们想要分析的对象的图像的区域。该分离基于对象像素和背景像素之间的强度变化。
         1. 阈值二进制
         2. 阈值二进制，倒数
         3. 截短
         4. 阈值为零
         5. 阈值为零，倒数
+    9. ThresholdingInRange：阈值操作(inRange())，setTrackbarPos()
 
 ---
 
